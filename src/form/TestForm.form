@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="form.TestForm">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="ede0a" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f835a" class="javax.swing.JButton" binding="button5" default-binding="true">
+            <constraints border-constraint="North"/>
+            <properties>
+              <text value="Button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="ef8" class="javax.swing.JButton" binding="button1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="7b6e5" class="javax.swing.JButton" binding="button2" default-binding="true">
+        <constraints border-constraint="South"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="35120" class="javax.swing.JButton" binding="button3" default-binding="true">
+        <constraints border-constraint="West"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+      <component id="f8556" class="javax.swing.JButton" binding="button4" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <text value="Button"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
