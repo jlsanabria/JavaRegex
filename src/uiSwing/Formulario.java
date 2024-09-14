@@ -1,5 +1,7 @@
 package uiSwing;
 
+import util.ValidacionUtil;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
@@ -86,7 +88,15 @@ public class Formulario extends JFrame {
         bRegistrar.setBounds(110, 180, 170, 25);
         bRegistrar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                System.out.println(tfName.getText());
+                String nombre = tfName.getText();
+                System.out.println(nombre);
+                boolean nombresValido = ValidacionUtil.validarNombreApellidos(nombre);
+                if(nombresValido) {
+                    tfName.setBackground(Color.GREEN);
+                } else {
+                    tfName.setBackground(Color.RED);
+                }
+
                 System.out.println(tfLastName.getText());
                 System.out.println(tfEmail.getText());
                 System.out.println(tfPhone.getText());
